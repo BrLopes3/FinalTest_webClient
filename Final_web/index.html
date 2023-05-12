@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" />
+    <title>Final Test - Bruno Lopes</title>
+</head>
+<body>
+    
+
+    <section id="Q2" title="Inventory">
+        <h1>Question 1/ Question 2</h1>
+        <!--table-->
+        <table id="tableInventory">
+            <thead>
+                <tr>
+                    <th colspan="3">Inventory</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Item</th>
+                    <th rowspan="2">Quantity</th>
+                </tr>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+
+    </section>
+
+    <section>
+        <section id="Q3">
+
+            <h1> Question 3</h1>
+            <form id="buyForm">
+                <label>Item</label>
+                <select id="selectItem" type="select" required>
+                    <option value="" selected>select the item</option>
+                </select>
+                <label>Quantity</label>
+                <input id="qtdInput" type="number" min="0" />
+                <button id="saveBuy" type="submit">Purchase</button>
+            </form>    
+    
+        </section>
+    
+        <section id="Q4">
+            <h1> Question 4</h1>
+            <form id="sellForm">
+                <label>Item</label>
+                <select id="selectSellItems" type="select" required>
+                    <option></option>
+                </select>
+                <label>Quantity</label>
+                <input id="qtdSellInput" type="number" min="0"/>
+                <button id="savewithdrawal" type="submit">Sale</button>
+            </form>
+
+        </section>
+
+
+
+    </section>
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
